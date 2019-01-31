@@ -19,6 +19,7 @@ version="2.1">
 		<class>embeddedobjects.Person7</class>
 		<class>elementcollection.Phone</class>
 		<class>elementcollection.Person8</class>
+		<class>queryselect.Person9</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
