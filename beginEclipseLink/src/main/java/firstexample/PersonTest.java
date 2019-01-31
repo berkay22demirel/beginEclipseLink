@@ -42,6 +42,9 @@ public class PersonTest {
 			System.out.println(person);
 		}
 
+		entityManager.close();
+		entityManagerFactory.close();
+
 	}
 
 }
