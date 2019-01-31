@@ -15,6 +15,8 @@ version="2.1">
 		<class>relationshipmanytomany.Person5</class>
 		<class>relationshiponetomany.Department2</class>
 		<class>relationshiponetomany.Person6</class>
+		<class>embeddedobjects.Address</class>
+		<class>embeddedobjects.Person7</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
