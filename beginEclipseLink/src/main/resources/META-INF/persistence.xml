@@ -8,9 +8,10 @@ version="2.1">
 		transaction-type="RESOURCE_LOCAL">
 		<class>firstexample.Person</class>
 		<class>simpletypes.Person2</class>
+		<class>primarykey.Person3</class>
 
 		<properties>
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/begineclipselink?serverTimezone=UTC" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password" value="123456" />
