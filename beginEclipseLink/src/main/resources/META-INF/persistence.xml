@@ -9,13 +9,15 @@ version="2.1">
 		<class>firstexample.Person</class>
 		<class>simpletypes.Person2</class>
 		<class>primarykey.Person3</class>
+		<class>relationshipmanytoone.Person4</class>
+		<class>relationshipmanytoone.Department</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/begineclipselink?serverTimezone=UTC" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password" value="123456" />
-			<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
             <property name="eclipselink.logging.level" value="OFF"/>
 		</properties>
 	</persistence-unit>
