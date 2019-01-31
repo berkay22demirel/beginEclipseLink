@@ -13,6 +13,8 @@ version="2.1">
 		<class>relationshipmanytoone.Department</class>
 		<class>relationshipmanytomany.Project</class>
 		<class>relationshipmanytomany.Person5</class>
+		<class>relationshiponetomany.Department2</class>
+		<class>relationshiponetomany.Person6</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
