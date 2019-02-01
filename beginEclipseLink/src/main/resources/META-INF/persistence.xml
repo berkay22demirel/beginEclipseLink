@@ -20,6 +20,8 @@ version="2.1">
 		<class>elementcollection.Phone</class>
 		<class>elementcollection.Person8</class>
 		<class>queryselect.Person9</class>
+		<class>queryjoin.Department3</class>
+		<class>queryjoin.Person10</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
