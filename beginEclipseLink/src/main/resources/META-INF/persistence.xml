@@ -22,6 +22,7 @@ version="2.1">
 		<class>queryselect.Person9</class>
 		<class>queryjoin.Department3</class>
 		<class>queryjoin.Person10</class>
+		<class>querywhere.Person11</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
